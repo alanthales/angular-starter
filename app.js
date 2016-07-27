@@ -9,7 +9,6 @@ angular.module('starterapp', ['ui.router','ngMaterial'])
     
     $mdIconProvider.defaultFontSet( 'fa' );
 
-    /* Add New States Above */
     $urlRouterProvider.otherwise('/home');
 })
 

@@ -1,5 +1,5 @@
 angular.module('starterapp')
-.controller('AppCtrl', function($scope, $mdSidenav, $state) {
+.controller('MainCtrl', function($scope, $mdSidenav, $state) {
     $scope.toggleMenu = function(menuId) {
         $mdSidenav(menuId).toggle();
     };
